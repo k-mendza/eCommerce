@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   @Input() value = 'Search for item';
-
+  @Input() selected = 'Everywhere';
   constructor() { }
 
   ngOnInit() {

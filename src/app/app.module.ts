@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 
-import { MatToolbarModule, MatFormFieldModule, MatIconModule, MatInputModule } from '@angular/material';
+import { MatToolbarModule, MatFormFieldModule, MatIconModule, MatInputModule, MatSelectModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { MatToolbarModule, MatFormFieldModule, MatIconModule, MatInputModule } f
     MatToolbarModule,
     MatInputModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
